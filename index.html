@@ -34,6 +34,7 @@
               "design-bg": "#EFDA6E",
               "budget-bg": "#A4DAC3",
               "vision-bg": "#77AAEA",
+              "btn-secondary-bg": "rgba(171, 239, 95, 0.2)",
             },
           },
         },
@@ -43,6 +44,9 @@
     <style>
         .font-manrope{
             font-family: "Manrope", sans-serif;
+        }
+        .bg-img{
+          background-image: url(assets/bg.jpg);
         }
     </style>
   </head>
@@ -170,6 +174,47 @@
                  </div>
             </div>
           </section>
+
+          <!-- form section -->
+           <section class="bg-img w-full">
+            <div class="mt-5 mb-5 w-9/12 mx-auto">
+              <div class="text-center pt-20 space-y-6">
+                <button class="rounded-full p-2 bg-btn-secondary-bg"><span class="mr-1"><i class="fa-solid fa-arrow-right"></i></span>Let's Connect</button>
+                <h2 class="font-extrabold text-4xl">Let’s Discuss Next Project</h2>
+                <p class="text-xl font-medium">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+              </div>
+              <!-- form -->
+              <div class="grid grid-cols-1 md:grid-cols-2 mx-auto mt-8 gap-4">
+                <!-- first name -->
+                    <input
+                    type="text"
+                    placeholder="First Name"
+                    class="input input-bordered input-md w-full rounded-full " />
+                    <!-- last name -->
+                    <input
+                    type="text"
+                    placeholder="Last Name"
+                    class="input input-bordered input-md w-full rounded-full" />
+                    <!-- phone number -->
+                    <input
+                    type="text"
+                    placeholder="Phone Number"
+                    class="input input-bordered input-md w-full rounded-full" />
+                    <!-- email -->
+                    <input
+                    type="Email"
+                    placeholder="Type here"
+                    class="input input-bordered input-md w-full rounded-full" />
+                    <!-- text -->
+                    <input
+                    type="text"
+                    placeholder="Write Your Message"
+                    class="input input-bordered w-full rounded-3xl h-60 col-span-2 row" />
+                    <!-- button -->
+                     <button class="bg-color-primary font-bold text-xl rounded-full col-span-2 p-2 mb-5">Send Mail <span class="bg-black text-white rounded-full m-2"><i class="fa-solid fa-arrow-right -rotate-45 p-2"></i></span></button>
+              </div>
+            </div>
+           </section>
     </body>
     <footer>
 
